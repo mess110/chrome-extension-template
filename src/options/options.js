@@ -1,1 +1,19 @@
-console.log('options page')
+let value = 'options'
+
+// Sync storage
+// chrome.storage.sync.set({key: value}, function() {
+  // console.log('Value is set to ' + value);
+// });
+
+// chrome.storage.sync.get(['key'], function(result) {
+  // console.log('Value currently is ' + result.key);
+// });
+
+// Local storage
+// chrome.storage.local.set({key: value}, function() {
+  // console.log('Value is set to ' + value);
+// });
+
+// chrome.storage.local.get(['key'], function(result) {
+  // console.log('Value currently is ' + result.key);
+// });

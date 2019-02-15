@@ -16,3 +16,4 @@
 * Support for cookies/storage through contentSettings
 * Works on all pages
 * Inject custom js and css on all pages
+* Sync storage across devices
